@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6mtpA3hrYxhQqjY4LHcyuzOIC1BOOrQqUFpjLLNi/rN2a5mvgTLRQg/FPVWkg4eLiJDxaHWu95c0xBvlQV8Ynw==",
+  "dgSpecHash": "dsLl3yTvw6uDrCYGkshATRtAUSBl0lkMggF8HCb0I2LXbTUtihrEdZjfbYrHPvqC2WLN+YZiO2pkIvrwdzBA1A==",
   "success": true,
   "projectFilePath": "D:\\Project\\SDB-EID\\sdb-eid-be\\sdb-eid-be\\sdb-eid-be.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\NGANN\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

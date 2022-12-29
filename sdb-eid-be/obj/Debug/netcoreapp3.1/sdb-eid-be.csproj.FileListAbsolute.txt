@@ -10,11 +10,13 @@ D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\bin\Debug\netcoreapp3.1\sdb-eid-be.pdb
 D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.csprojAssemblyReference.cache
 D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.AssemblyInfoInputs.cache
 D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.AssemblyInfo.cs
-D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.csproj.CoreCompileInputs.cache
-D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.RazorTargetAssemblyInfo.cache
 D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\staticwebassets\sdb-eid-be.StaticWebAssets.Manifest.cache
 D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\staticwebassets\sdb-eid-be.StaticWebAssets.xml
 D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.dll
 D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.pdb
 D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.genruntimeconfig.cache
+D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.csproj.CoreCompileInputs.cache
+D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\SDB-EID\sdb-eid-be\sdb-eid-be\obj\Debug\netcoreapp3.1\sdb-eid-be.csproj.CopyComplete
