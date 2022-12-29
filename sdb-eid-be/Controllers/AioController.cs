@@ -20,7 +20,6 @@ namespace sdb_eid_be.Controllers
         public async Task<object> UploadImage(AllInOneRequest req)
         {
             var reqJSON = JsonConvert.SerializeObject(req);
-
             var client = new HttpClient();
             var response = await client.PostAsync("https://cardtest.sacombank.com.vn:9443/digizone/upload-image", new StringContent(reqJSON, Encoding.UTF8, "application/json"));
             var contents = await response.Content.ReadAsStringAsync();
