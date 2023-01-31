@@ -17,11 +17,22 @@ namespace sdb_eid_be.Controllers
     {
         [Route("[controller]/upload-image")]
         [HttpPost]
-        public async Task<object> UploadImage(AllInOneRequest req)
+        public async Task<object> UploadImage(AllInOneRequest<UploadImage> req)
         {
             var reqJSON = JsonConvert.SerializeObject(req);
             var client = new HttpClient();
             var response = await client.PostAsync("https://cardtest.sacombank.com.vn:9443/digizone/upload-image", new StringContent(reqJSON, Encoding.UTF8, "application/json"));
+            var contents = await response.Content.ReadAsStringAsync();
+            return contents;
+        }
+
+        [Route("[controller]/verify-sessionId")]
+        [HttpPost]
+        public async Task<object> GetSessionId(AllInOneRequest<string> req)
+        {
+            var reqJSON = JsonConvert.SerializeObject(req);
+            var client = new HttpClient();
+            var response = await client.PostAsync("http://istio-ingressgateway-istio-system.apps.ocptest.sacombank.local/digizone/" + "get-sessionId", new StringContent(reqJSON, Encoding.UTF8, "application/json"));
             var contents = await response.Content.ReadAsStringAsync();
             return contents;
         }

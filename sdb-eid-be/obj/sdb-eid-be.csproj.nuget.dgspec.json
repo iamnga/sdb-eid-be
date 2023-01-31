@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\SDB-EID\\sdb-eid-be\\sdb-eid-be\\sdb-eid-be.csproj": {}
+    "D:\\Projects\\SDB\\sdb-eid-be\\sdb-eid-be\\sdb-eid-be.csproj": {}
   },
   "projects": {
-    "D:\\Project\\SDB-EID\\sdb-eid-be\\sdb-eid-be\\sdb-eid-be.csproj": {
+    "D:\\Projects\\SDB\\sdb-eid-be\\sdb-eid-be\\sdb-eid-be.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\SDB-EID\\sdb-eid-be\\sdb-eid-be\\sdb-eid-be.csproj",
+        "projectUniqueName": "D:\\Projects\\SDB\\sdb-eid-be\\sdb-eid-be\\sdb-eid-be.csproj",
         "projectName": "sdb-eid-be",
-        "projectPath": "D:\\Project\\SDB-EID\\sdb-eid-be\\sdb-eid-be\\sdb-eid-be.csproj",
-        "packagesPath": "C:\\Users\\NGANN\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\SDB-EID\\sdb-eid-be\\sdb-eid-be\\obj\\",
+        "projectPath": "D:\\Projects\\SDB\\sdb-eid-be\\sdb-eid-be\\sdb-eid-be.csproj",
+        "packagesPath": "C:\\Users\\ngann31730\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SDB\\sdb-eid-be\\sdb-eid-be\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\NGANN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngann31730\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
@@ -61,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
